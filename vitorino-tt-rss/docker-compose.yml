@@ -1,6 +1,6 @@
 services:
   tt-rss:
-    image: supahgreg/tt-rss:latest
+    image: ghcr.io/tt-rss/tt-rss-web-nginx:latest
     ports:
       - "80/tcp"
     volumes:
