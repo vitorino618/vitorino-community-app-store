@@ -2,7 +2,7 @@ services:
   vitorino-tt-rss:
     image: ghcr.io/tt-rss/tt-rss-web-nginx:latest
     ports:
-      - "80/tcp"
+      - "81:81"
     volumes:
       - "${APP_DATA_DIR}/data:/data"
     restart: unless-stopped
