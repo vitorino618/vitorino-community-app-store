@@ -1,6 +1,6 @@
 ## Vitorino Community App Store
 
-At the momment I only could get Umbrel to recognize the repository but not to install actual apps so it's useless for now.
+At the momment I could only get Umbrel to recognize the repository but not to install actual apps so it's useless for now.
 
 ### Currently available apps
 
