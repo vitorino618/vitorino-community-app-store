@@ -1,8 +1,17 @@
 services:
   vitorino-tt-rss:
-    image: ghcr.io/tt-rss/tt-rss-web-nginx:sha-84554ba
+    image: ghcr.io/tt-rss/tt-rss:latest
     ports:
       - "8280:8280"
     volumes:
       - "${APP_DATA_DIR}/data:/data"
     restart: unless-stopped
+  web-nginx:
+    image: ghcr.io/tt-rss/tt-rss-web-nginx:latest
+    restart: unless-stopped
+    ports:
+      - "81:81"
+    volumes:
+      - "${APP_DATA_DIR}/var/www/html:ro"
+    depends_on:
+      - app
