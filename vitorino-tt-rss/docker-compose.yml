@@ -1,5 +1,5 @@
 services:
-  tt-rss:
+  vitorino-tt-rss:
     image: ghcr.io/tt-rss/tt-rss-web-nginx:latest
     ports:
       - "80/tcp"
