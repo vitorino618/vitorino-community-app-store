@@ -5,7 +5,7 @@ tagline: A very tiny RSS reader and aggregator.
 icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/tt-rss-icon.png
 description: >-
   Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
-developer: lunik1
+developer: supahgreg
 website: https://tt-rss.org/
 category: Productivity
 port: 80
