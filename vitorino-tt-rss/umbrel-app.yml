@@ -10,7 +10,7 @@ description: >-
   Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
 developer: tt-rss
 submitter: vitorino
-submission: submission: https://github.com/vitorino618/vitorino-community-app-store/pull/
+submission: https://github.com/vitorino618/vitorino-community-app-store/pull/
 website: https://tt-rss.org/
 support: https://github.com/tt-rss/tt-rss/issues
 releaseNotes: >-
