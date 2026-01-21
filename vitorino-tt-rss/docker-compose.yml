@@ -4,6 +4,5 @@ services:
     ports:
       - "8280:8280"
     volumes:
-      - app:/var/www/html
-      - ./config.d:/opt/tt-rss/config.d:ro
+      - "${APP_DATA_DIR}/data:/data"
     restart: unless-stopped
