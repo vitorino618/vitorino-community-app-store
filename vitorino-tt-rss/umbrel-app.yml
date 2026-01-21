@@ -1,6 +1,7 @@
 manifestversion: 1
 id: vitorino-tt-rss
-name: Tiny Reader RSS
+name: Tiny Tiny RSS
+tagline: A very tiny RSS reader and aggregator.
 description: Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
 icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/tt-rss-icon.png
 category: Productivity
