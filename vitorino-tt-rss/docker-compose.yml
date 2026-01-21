@@ -4,5 +4,5 @@ services:
     ports:
       - "80/tcp"
     volumes:
-      - ${APP_DATA_DIR}/data:/data
+      - "${APP_DATA_DIR}/data:/data"
     restart: unless-stopped
