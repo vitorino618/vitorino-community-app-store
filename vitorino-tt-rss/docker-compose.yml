@@ -1,6 +1,6 @@
 services:
   tt-rss:
-    image: lunik1/tt-rss:latest
+    image: supahgreg/tt-rss:latest
     ports:
       - "80/tcp"
     volumes:
