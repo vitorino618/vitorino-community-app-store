@@ -1,6 +1,6 @@
 services:
   vitorino-tt-rss:
-    image: ghcr.io/tt-rss/tt-rss-web-nginx:latest
+    image: ghcr.io/tt-rss/tt-rss-web-nginx:sha-84554ba
     ports:
       - "81:81"
     volumes:
