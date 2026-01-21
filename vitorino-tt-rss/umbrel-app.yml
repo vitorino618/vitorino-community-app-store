@@ -3,10 +3,18 @@ id: vitorino-tt-rss
 name: Tiny Tiny RSS
 tagline: A very tiny RSS reader and aggregator.
 icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/tt-rss-icon.png
+category: Productivity
+version: "1"
+port: 80
 description: >-
   Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
-developer: supahgreg
+developer: tt-rss
+submitter: vitorino
+submission: submission: https://github.com/vitorino618/vitorino-community-app-store/pull/
 website: https://tt-rss.org/
-category: Productivity
-port: 80
-support: No support URL provided
+support: https://github.com/tt-rss/tt-rss/issues
+releaseNotes: >-
+dependencies:
+path: "/admin"
+defaultUsername: ""
+defaultPassword: ""
